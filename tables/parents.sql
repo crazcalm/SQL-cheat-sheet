@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS parents;
+
+CREATE TABLE parents(
+    id          INTEGER PRIMARY KEY,
+    mother      INTEGER,
+    father      INTEGER,
+    child       INTEGER,
+    FOREIGN KEY (mother) REFERENCES people (id) ON DELETE CASCADE ON UPDATE 
+CASCADE,
+    FOREIGN KEY (father) REFERENCES people (id) ON DELETE CASCADE ON UPDATE 
+CASCADE,
+    FOREIGN KEY (child) REFERENCES people (id) ON DELETE CASCADE ON UPDATE 
+CASCADE
+);
