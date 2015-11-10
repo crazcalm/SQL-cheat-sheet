@@ -9,6 +9,8 @@
 ##Example:
 	SELECT * FROM people LEFT OUTER JOIN parents ON parents.mother = people.id;
 
+#####Note: LEFT OUTER JOIN is SQLite syntax
+
 ##Output:
 	id          first_name  last_name   sex         id          mother      father      child
 	----------  ----------  ----------  ----------  ----------  ----------  ----------  ----------
