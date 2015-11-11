@@ -1,10 +1,10 @@
 # SQL-cheat-sheet
 
-##Overview
-	Everytime I have an interview comming up where I think
-   	the interviewer is going to ask me SQL related
-    questions, I spend two or three days reviewing all of
-    SQL.
-    
-    I am tired of that approach! I am going to create a
-    cheat sheet for all future use!
+##HOW To Use:
+
+###Option 1:
+	Go to my blog and view all the examples on one page.
+    url: http://ogcrazcalm.blogspot.com/2015/11/sql-cheat-sheet.html
+
+###Option 2:
+	Go to the 'sections' directory and view each example individually.
